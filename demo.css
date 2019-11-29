@@ -1,0 +1,50 @@
+
+
+
+.burger{
+	margin:0;
+	padding: 0;
+	/* background: #4bb5ef; */
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	/* line-height: 44px; */
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 15px;
+	height: 44px;
+	padding: 0 50px;
+}
+
+.burger a {
+	display: block;
+	width: 28px;
+	height: 18px;
+	padding: 17px 0 0 12px;
+	/* margin: 2px; */
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.burger a:before,
+.burger a:after {
+	content: '';
+	display: block;
+	background: rgb(219, 5, 91) ;
+	height: 2px;
+}
+.burger a span {
+	background: rgb(219, 5, 91) ;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+}
+.burger{
+	margin:0;
+	padding: 20px;
+}
+
+#menu{
+	margin-top: 0px;
+}
